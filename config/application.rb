@@ -23,7 +23,7 @@ module Workspace
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
     
-    config.web_console.whitelisted_ips = '109.78.185.139'
+   
     config.web_console.whiny_requests = false
     config.web_console.development_only = false
     config.assets.initialize_on_precompile = false
