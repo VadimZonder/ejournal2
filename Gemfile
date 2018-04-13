@@ -72,7 +72,7 @@ end
 
 ##comments
 ruby "2.3.4"
-gem 'sqlite3'
+gem 'sqlite3' , '~> 1.3.13'
 
 gem 'pg'
 
