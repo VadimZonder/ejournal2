@@ -77,3 +77,6 @@ gem 'sqlite3' , '~> 1.3.13', group: [:development, :test]
 gem 'pg'
 
 gem 'rails_12factor', group: :production
+group :development do
+  gem 'web-console', '2.0.0.beta3'
+end
