@@ -40,21 +40,7 @@ gem 'highcharts-rails'
 gem 'groupdate', '~> 3.2.0'
 gem 'active_median', '~> 0.1.0'
 #________________________________
-# Use sqlite3 as the database for Active Record
-#used for development and testing
-gem 'sqlite3', '~> 1.3.13', group: [:development, :test]
-	
-#postgres for production db
-gem 'pg', group: :production
-	
-#12 factor for Heroku
-gem 'rails_12factor', group: :production
-
-#insted of webrick 
-gem 'puma'
-
-gem 'web-console', '~> 2.0'
-
+#
 #gem 'google-cloud-language'
 source "https://rubygems.org"
 
@@ -84,3 +70,10 @@ group :development do
   gem 'spring'
 end
 
+##comments
+ruby "2.3.4"
+gem 'sqlite3'
+
+gem 'pg'
+
+gem 'rails_12factor', group: :production
